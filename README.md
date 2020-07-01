@@ -21,13 +21,14 @@ Node是搞后端的，不应该被被归为前端，更不应该用前端的观�
 - 终极目标是让大家对node有一个快速完整的认识
 
 # 内容大纲
-- [ES6新特性](#es6新特性)
+- [ES6新特性，TypeScript](#es6新特性)
 - [javascript高级话题(面向对象，作用域，闭包，设计模式等)](#javascript高级话题面向对象作用域闭包设计模式等)
 - [node核心内置类库(事件，流，文件，网络等)](#node核心内置类库事件流文件网络等)
 - [node高级话题(异步，部署，性能调优，异常调试等)](#node高级话题异步部署性能调优异常调试等)
-- [常用知名第三方类库(Async, Express等)](#常用知名第三方类库async-express等)
-- [其它相关后端常用技术(MongoDB, Redis, Apache, Nginx等)](#其它相关后端常用技术mongodb-redis-apache-nginx等)
+- [常用知名第三方类库(Promise, Async, Express, Koa等)](#常用知名第三方类库async-express等)
+- [其它相关后端常用技术(MongoDB, Redis, MySQL, Apache, Nginx等)](#其它相关后端常用技术mongodb-redis-apache-nginx等)
 - [常用前端技术(Html5, CSS3, JQuery等)](#常用前端技术html5-css3-jquery等)
+- [网络协议相关](#)
 
 ## ES6新特性
 - 1. ES6有哪些新特性？
@@ -39,6 +40,9 @@ Node是搞后端的，不应该被被归为前端，更不应该用前端的观�
 参考答案：ES6必火！从软件工程角度来看，以前真的很弱，不适合做大型应用，很容易导致烂尾工程。ES6就相当于当年的Java5,是历史性的发展，从此我们可以用js做大型项目了。事实上，各大主流浏览器现在已经支持大部分新特性了，后端的Node.js更是可以直接使用ES6的绝大多数语法。
 
 推荐ES6入门好书: [阮一峰 ECMAScript 6入门](http://es6.ruanyifeng.com/)
+
+- 3. TypeScript有什么特点？
+参考答案：
 
 ## javascript高级话题(面向对象，作用域，闭包，设计模式等)
 - 1. 常用js类定义的方法有哪些？  
@@ -59,7 +63,7 @@ Node是搞后端的，不应该被被归为前端，更不应该用前端的观�
 	person.sayName();
 ```
 2) 对象创建方法定义类  
-```
+```javascript
 	var Person = {
 		name: 'michaelqin',
 		sayName: function(){ alert(this.name); }
