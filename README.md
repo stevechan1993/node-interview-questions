@@ -7,6 +7,8 @@ Node是搞后端的，不应该被被归为前端，更不应该用前端的观�
 # node 事件循环机制
 <img src="event_loop.jpg" alt="">
 
+# node 异步I/O
+
 # 起源
 - node正风生火起，很多介绍却停留在入门阶段，无法投入生产
 - node相关的高质量面试题更是少之又少，很难全面考查应聘者的node能力
@@ -21,11 +23,13 @@ Node是搞后端的，不应该被被归为前端，更不应该用前端的观�
 - 终极目标是让大家对node有一个快速完整的认识
 
 # 内容大纲
-- [ES6新特性，TypeScript](#es6新特性)
+- [ES6新特性](#es6新特性)
+- [TypeScript特性](#)
 - [javascript高级话题(面向对象，作用域，闭包，设计模式等)](#javascript高级话题面向对象作用域闭包设计模式等)
 - [node核心内置类库(事件，流，文件，网络等)](#node核心内置类库事件流文件网络等)
 - [node高级话题(异步，部署，性能调优，异常调试等)](#node高级话题异步部署性能调优异常调试等)
 - [常用知名第三方类库(Promise, Async, Express, Koa等)](#常用知名第三方类库async-express等)
+- [常见Web框架(Express, Koa, Nest, Egg)](#)
 - [其它相关后端常用技术(MongoDB, Redis, MySQL, Apache, Nginx等)](#其它相关后端常用技术mongodb-redis-apache-nginx等)
 - [常用前端技术(Html5, CSS3, JQuery等)](#常用前端技术html5-css3-jquery等)
 - [网络协议相关](#)
